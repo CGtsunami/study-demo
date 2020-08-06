@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cec2317-9374-4bad-8453-82e2d72ff5d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/dao/UserEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redisdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redisdemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redisdemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/redisdemo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study-demo.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -99,8 +102,23 @@
       <option name="presentableId" value="Default" />
       <updated>1596433926619</updated>
       <workItem from="1596433930007" duration="2209000" />
-      <workItem from="1596505934597" duration="7239000" />
+      <workItem from="1596505934597" duration="14411000" />
     </task>
+    <task id="LOCAL-00001" summary="新增redis工具类">
+      <created>1596533057588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596533057589</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新增redis工具类">
+      <created>1596533078107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596533078107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增redis工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增redis工具类" />
   </component>
 </project>
