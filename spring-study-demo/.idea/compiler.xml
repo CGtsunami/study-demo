@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redis-demo" />
         <module name="spring-study-demo" />
+        <module name="redis-demo" />
       </profile>
     </annotationProcessing>
   </component>

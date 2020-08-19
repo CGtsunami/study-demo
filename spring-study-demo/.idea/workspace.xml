@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cec2317-9374-4bad-8453-82e2d72ff5d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/controller/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/dao/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/service/SchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/service/SchedulerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/configuration/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/suppot/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redisdemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/redisdemo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/websocket/src/main/java/suppot" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -52,10 +56,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.redis.service" />
       <recent name="com.redis" />
       <recent name="config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\demo\study-demo\spring-study-demo\websocket\src\main\java\suppot" />
+      <recent name="F:\demo\study-demo\spring-study-demo\websocket\src\main\java" />
+      <recent name="F:\demo\study-demo\spring-study-demo\redisdemo" />
       <recent name="F:\demo\spring-study-demo\redisdemo\src\main\resources" />
     </key>
   </component>
@@ -102,7 +110,10 @@
       <option name="presentableId" value="Default" />
       <updated>1596433926619</updated>
       <workItem from="1596433930007" duration="2209000" />
-      <workItem from="1596505934597" duration="14411000" />
+      <workItem from="1596505934597" duration="21032000" />
+      <workItem from="1596762428929" duration="1016000" />
+      <workItem from="1597025646047" duration="4169000" />
+      <workItem from="1597805059206" duration="1009000" />
     </task>
     <task id="LOCAL-00001" summary="新增redis工具类">
       <created>1596533057588</created>
@@ -118,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596533078107</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增redis工具类">
+      <created>1596683601544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596683601544</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增redis工具类">
+      <created>1597041048627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597041048627</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +154,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
