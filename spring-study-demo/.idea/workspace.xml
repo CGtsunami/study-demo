@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cec2317-9374-4bad-8453-82e2d72ff5d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/service/SchedulerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redisdemo/src/main/java/com/redis/service/SchedulerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/configuration/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocket/src/main/java/suppot/WebSocketServer.java" afterDir="false" />
+    <list default="true" id="2cec2317-9374-4bad-8453-82e2d72ff5d4" name="Default Changelist" comment="新增redis使用">
+      <change afterPath="$PROJECT_DIR$/kafkademo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkademo/src/main/java/com/kafka/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkademo/src/main/java/com/kafka/config/ControlEngineCacheLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkademo/src/main/java/com/kafka/config/KafkaListenerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkademo/src/main/java/com/kafka/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkademo/src/main/java/com/kafka/listener/PcEngineListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkademo/src/main/java/com/kafka/service/PcEngineProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkademo/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -48,23 +51,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/websocket/src/main/java/suppot" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafkademo/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.redis.service" />
-      <recent name="com.redis" />
-      <recent name="config" />
+      <recent name="com.kafka.listener" />
+      <recent name="com.kafka.service" />
+      <recent name="listener" />
+      <recent name="com.kafka.config" />
+      <recent name="com.kafka" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\demo\study-demo\spring-study-demo\kafkademo\src\main\java" />
+      <recent name="F:\demo\study-demo\spring-study-demo\kafkademo\src\main\resources" />
       <recent name="F:\demo\study-demo\spring-study-demo\websocket\src\main\java\suppot" />
       <recent name="F:\demo\study-demo\spring-study-demo\websocket\src\main\java" />
       <recent name="F:\demo\study-demo\spring-study-demo\redisdemo" />
-      <recent name="F:\demo\spring-study-demo\redisdemo\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,7 +119,8 @@
       <workItem from="1596505934597" duration="21032000" />
       <workItem from="1596762428929" duration="1016000" />
       <workItem from="1597025646047" duration="4169000" />
-      <workItem from="1597805059206" duration="1009000" />
+      <workItem from="1597805059206" duration="1085000" />
+      <workItem from="1602314021304" duration="3169000" />
     </task>
     <task id="LOCAL-00001" summary="新增redis工具类">
       <created>1596533057588</created>
@@ -143,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597041048627</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增redis使用">
+      <created>1597806091554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597806091554</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增redis工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增redis工具类" />
+    <MESSAGE value="新增redis使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增redis使用" />
   </component>
 </project>

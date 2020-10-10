@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-study-demo" />
+        <module name="kafkademo" />
         <module name="redis-demo" />
+        <module name="websocket" />
       </profile>
     </annotationProcessing>
   </component>
